@@ -19,14 +19,7 @@ from .tools import (
 )
 
 # Initialize FastMCP server
-mcp = FastMCP(
-    "IT Glue",
-    description=(
-        "MCP server for IT Glue API - comprehensive IT documentation management "
-        "including organizations, configurations, passwords, contacts, flexible assets, "
-        "checklists, documents, locations, domains, and relationships"
-    ),
-)
+mcp = FastMCP("IT Glue")
 
 
 def register_all_tools() -> None:
